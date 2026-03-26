@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maelspine"
+version = "0.1.1"
+description = "Frozen capability registry — register, boot, done."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "Adam Thomas" }]
+keywords = ["registry", "configuration", "capability", "frozen", "boot"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+[project.urls]
+Homepage = "https://github.com/adam-scott-thomas/maelspine"
+Issues = "https://github.com/adam-scott-thomas/maelspine/issues"
+
+[tool.setuptools.packages.find]
+include = ["spine*"]
