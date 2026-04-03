@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "maelspine"
-version = "0.1.1"
-description = "Frozen capability registry — register, boot, done."
+version = "0.3.0"
+description = "Frozen capability registry — register, boot, done. Three tiers: spine, spine heavy, spine heavy+."
 readme = "README.md"
-license = "MIT"
+license = "Apache-2.0"
 requires-python = ">=3.10"
 authors = [{ name = "Adam Thomas" }]
 keywords = ["registry", "configuration", "capability", "frozen", "boot"]

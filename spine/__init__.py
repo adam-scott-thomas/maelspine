@@ -1,10 +1,13 @@
-# spine — Minimal runtime coordination layer.
+# spine — Frozen capability registry.
 #
 # Usage:
 #   from spine import Core, RunContext, CoreFrozen, CapabilityNotFound
 #
 # Observer (detachable):
 #   from spine.observers import Observer, SlackBackend, PrintBackend
+#
+# Forensics (detachable, Heavy+):
+#   from spine.forensics import audit_log, provenance, boot_graph, replay
 
 from spine.core import (
     Core,
@@ -12,6 +15,7 @@ from spine.core import (
     CoreFrozen,
     CoreNotBooted,
     CapabilityNotFound,
+    ValidationError,
 )
 
 __all__ = [
@@ -20,6 +24,7 @@ __all__ = [
     "CoreFrozen",
     "CoreNotBooted",
     "CapabilityNotFound",
+    "ValidationError",
 ]
 
-__version__ = "0.1.1"
+__version__ = "0.3.0"
