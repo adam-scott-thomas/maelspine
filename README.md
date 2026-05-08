@@ -1,5 +1,9 @@
 # spine
 
+> **⚠ DEPRECATED — `maelspine` is frozen at 0.3.0. Use [`ghostspine`](https://github.com/adam-scott-thomas/ghostspine) instead.**
+>
+> The two packages are byte-identical (both ship the same `spine/` module). They cannot be installed side-by-side. Going forward, all GhostLogic SDK consumers depend on `ghostspine`. `maelspine` 0.3.0 stays on PyPI for existing installs but receives no further releases. See [DEPRECATED.md](./DEPRECATED.md).
+
 Minimal runtime coordination layer for Python projects.
 
 One registry. One freeze. One place where reality gets decided.
